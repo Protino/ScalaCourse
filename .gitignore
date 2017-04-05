@@ -1,0 +1,8 @@
+# IntelliJ project files
+.idea/
+target/
+#out
+#gen### Scala template
+#*.class
+#.log
+
