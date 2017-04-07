@@ -6,6 +6,9 @@ def sum(f: Int => Int)(a: Int, b: Int): Int = {
   }
 
   loop(a, 0)
+
 }
 
 sum(x => x * x)(3, 5)
+
+sum(x => x - x)(1, 10)
